@@ -1,4 +1,10 @@
 extends main
 
 block content
-    h1 Welcome to Job Dream
+    div.container
+        h1 Welcome to Job Dream
+        a(class='button' href='http://localhost:3000/about') About
+        br
+        button(type='button' class='btn btn-info btn-lg' onclick='something()') Click
+
+    script(src='/js/event.js')
